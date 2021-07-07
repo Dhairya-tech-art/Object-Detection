@@ -1,6 +1,6 @@
 img="";
 status="";
-object="";
+objects="";
 
 function preload(){
     img = loadImage('dog_cat.jpg');
@@ -52,5 +52,6 @@ function gotResult(error, results){
         console.log(error);
     }
 console.log(results);
+objects=results;
 }
 
